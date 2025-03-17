@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Japonês</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurante Japonês KyotoXang</h1>
+        <nav>
+            <ul>
+                <li><a href="#" data-color="#f08080">Salmão</a></li>
+                <li><a href="#" data-color="#90ee90">Atum</a></li>
+                <li><a href="#" data-color="#87ceeb">Camarão</a></li>
+            </ul>
+        </nav>
+        <img src="kyoto1.png">
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Cardápio - Escolha seu Combo</h2>
+            <div class="item">
+                <label for="combo">Combo:</label>
+                <select id="combo">
+                    <option value="30">Combo 1 - R$ 30,00</option>
+                    <option value="45">Combo 2 - R$ 45,00</option>
+                    <option value="60">Combo 3 - R$ 60,00</option>
+                </select>
+            </div>
+            <div class="item">
+                <label for="alacarte">À la carte:</label>
+                <select id="alacarte">
+                    <option value="15">Sushi - R$ 15,00</option>
+                    <option value="20">Sashimi - R$ 20,00</option>
+                    <option value="25">Temaki - R$ 25,00</option>
+                </select>
+            </div>
+            <p>Total: R$ <span id="total">0</span></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
